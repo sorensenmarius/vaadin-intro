@@ -10,6 +10,9 @@ import com.vaadin.flow.component.orderedlayout.HorizontalLayout;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.router.Route;
 
+import javax.annotation.security.PermitAll;
+
+@PermitAll
 @Route(value = "recipes", layout = MainLayout.class)
 public class RecipesView extends VerticalLayout {
     Grid<Recipe> grid = new Grid<>(Recipe.class);
