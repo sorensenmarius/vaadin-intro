@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e076e65f-8803-4454-8925-fbc52f03ce6c" name="Changes" comment="Auth">
+    <list default="true" id="e076e65f-8803-4454-8925-fbc52f03ce6c" name="Changes" comment="Work?">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/main_vaadin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main_vaadin.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Application.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,7 +216,7 @@
       <workItem from="1661153665250" duration="4831000" />
       <workItem from="1661163867348" duration="290000" />
       <workItem from="1661164268616" duration="8351000" />
-      <workItem from="1661237049530" duration="6727000" />
+      <workItem from="1661237049530" duration="6788000" />
     </task>
     <task id="LOCAL−00001" summary="Recipe grid">
       <created>1661173279342</created>
@@ -231,7 +230,13 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1661241653711</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL−00003" summary="Work?">
+      <created>1661245128345</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1661245128345</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,7 +256,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Recipe grid" />
     <MESSAGE value="Auth" />
-    <option name="LAST_COMMIT_MESSAGE" value="Auth" />
+    <MESSAGE value="Work?" />
+    <option name="LAST_COMMIT_MESSAGE" value="Work?" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

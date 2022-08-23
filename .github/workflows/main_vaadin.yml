@@ -22,13 +22,13 @@ jobs:
           java-version: '17'
 
       - name: Build with Gradle
-        run: ./gradlew bootJar
+        run: ./gradlew -Pvaadin.productionMode=true war
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
         with:
           name: java-app
-          path: '${{ github.workspace }}/build/libs/*.jar'
+          path: '${{ github.workspace }}/build/libs/*.war'
 
   deploy:
     runs-on: ubuntu-latest
@@ -50,4 +50,4 @@ jobs:
           app-name: 'vaadin'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_85FFAC4ECEEB4D9BB06E27E8B21210F0 }}
-          package: '*.jar'
+          package: '*.war'
