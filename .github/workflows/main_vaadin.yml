@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'vaadin'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_85FFAC4ECEEB4D9BB06E27E8B21210F0 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_57BC785BF4AA48E3A4902C0B0E49288D }}
           package: '*.war'
