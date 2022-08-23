@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e076e65f-8803-4454-8925-fbc52f03ce6c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/security/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/security/SecurityService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/views/LoginView.java" afterDir="false" />
+    <list default="true" id="e076e65f-8803-4454-8925-fbc52f03ce6c" name="Changes" comment="Auth">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/layouts/MainLayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/layouts/MainLayout.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/views/MainView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/views/MainView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/views/recipes/RecipesView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/views/recipes/RecipesView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Application.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,7 +217,7 @@
       <workItem from="1661153665250" duration="4831000" />
       <workItem from="1661163867348" duration="290000" />
       <workItem from="1661164268616" duration="8351000" />
-      <workItem from="1661237049530" duration="3912000" />
+      <workItem from="1661237049530" duration="6727000" />
     </task>
     <task id="LOCAL−00001" summary="Recipe grid">
       <created>1661173279342</created>
@@ -230,7 +225,13 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1661173279342</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL−00002" summary="Auth">
+      <created>1661241653711</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1661241653711</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,7 +250,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Recipe grid" />
-    <option name="LAST_COMMIT_MESSAGE" value="Recipe grid" />
+    <MESSAGE value="Auth" />
+    <option name="LAST_COMMIT_MESSAGE" value="Auth" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
